@@ -43,9 +43,3 @@ O controle de versão do projeto foi estruturado seguindo os padrões do mercado
 - **Semantic Versioning (SemVer):** Controle de lançamentos por versões (`MAJOR.MINOR.PATCH`), como `v0.1.0`, `v0.2.0` e `v1.0.0`.
 
 ---
-
-## 💻 Como Rodar o Projeto Localmente
-
-1. Clone este repositório no seu computador:
-   ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)

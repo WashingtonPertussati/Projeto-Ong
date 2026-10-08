@@ -1,33 +1,51 @@
 # Projeto ONG - Site Institucional
 
-Este projeto foi desenvolvido como parte de uma solicitação acadêmica da faculdade. O objetivo principal foi criar um site institucional completo para uma Organização Não Governamental (ONG), aplicando conceitos práticos de desenvolvimento web front-end.
+Este projeto foi desenvolvido como parte de uma atividade acadêmica para a criação de um site institucional completo para uma Organização Não Governamental (ONG), aplicando conceitos práticos de desenvolvimento web front-end e boas práticas de controle de versão.
+
+---
 
 ## 🚀 Tecnologias Utilizadas
-- **HTML5:** Para a construção e organização de toda a estrutura estrutural das páginas.
-- **CSS3:** Para a estilização, definição de cores, layout responsivo e identidade visual do site.
-- **JavaScript:** Para trazer interatividade ao usuário, aplicando lógica dinâmica diretamente no navegador.
+
+- **HTML5:** Estruturação semântica de todas as páginas da aplicação.
+- **CSS3:** Estilização, layout responsivo e identidade visual.
+- **JavaScript:** Lógica dinâmica e interatividade do lado do cliente (client-side).
+
+---
 
 ## 🛠️ Processo de Desenvolvimento
 
 ### 1. Estruturação com HTML
-O desenvolvimento começou do zero pela organização das tags estruturais do HTML. Foram criadas seções essenciais para o site da ONG, incluindo:
-- Um cabeçalho (`<header>`) com menu de navegação claro.
-- Uma seção principal (`<main>`) detalhando a missão, visão e os valores da organização.
-- Áreas específicas para fotos, formulários de contato e um rodapé (`<footer>`) com redes sociais.
+- **`<header>`:** Menu de navegação claro e acessível.
+- **`<main>`:** Apresentação da missão, visão e valores da ONG.
+- **Formulários e Mídia:** Seções para fotos, contatos e formulário de interação.
+- **`<footer>`:** Rodapé institucional e links para redes sociais.
 
 ### 2. Estilização com CSS
-Com a estrutura pronta, o CSS foi utilizado para transformar o visual do site:
-- Aplicação de paletas de cores que transmitem a identidade acolhedora da ONG.
-- Ajustes de margens, espaçamentos e alinhamentos para garantir uma leitura confortável.
-- Configuração de tipografia (fontes) e efeitos visuais nos botões ao passar o mouse.
+- Definição de paleta de cores acolhedora para o tema da ONG.
+- Ajustes de tipografia, espaçamento e responsividade para dispositivos móveis.
+- Efeitos visuais e interativos nos botões e elementos de navegação.
 
-### 3. Interatividade com JavaScript (Mensagem Seguindo o Mouse)
-Para dar um destaque especial e interativo ao projeto, desenvolvemos uma funcionalidade dinâmica usando JavaScript. Conseguimos criar o efeito de uma **mensagem flutuante que segue o ponteiro do mouse** através da seguinte lógica:
-- Capturamos os movimentos do usuário na tela através do evento de escuta `mousemove`.
-- Esse evento nos fornece, em tempo real, as coordenadas exatas (`X` e `Y`) de onde o mouse está passando.
-- Com esses dados, manipulamos o estilo CSS de uma caixinha de texto (uma `<div>`), atualizando as propriedades `top` e `left` dela instantaneamente para as mesmas posições do mouse.
+### 3. Interatividade com JavaScript (Caixa Seguindo o Mouse)
+- Captura de eventos com `mousemove` para obter as coordenadas em tempo real (`X` e `Y`).
+- Atualização dinâmica do CSS (propriedades `top` e `left`) para movimentar a caixa flutuante junto com o ponteiro do mouse.
 
-## 💻 Como rodar o projeto localmente
-1. Faça o download ou clone este repositório.
-2. Navegue até a pasta do projeto.
-3. Abra o arquivo `index.html` em qualquer navegador web (Chrome, Edge, Firefox).
+---
+
+## 📌 Práticas de Versionamento e Git
+
+O controle de versão do projeto foi estruturado seguindo os padrões do mercado:
+
+- **GitFlow:**
+  - `main`: Branch de produção, mantendo apenas código estável e pronto para lançamento.
+  - `develop`: Branch de integração para consolidação das funcionalidades.
+  - `feature/`: Branches dedicadas para a criação de novas funcionalidades isoladas.
+- **Conventional Commits:** Padronização das mensagens de commit (`feat:`, `fix:`, `style:`, `docs:`, `chore:`).
+- **Semantic Versioning (SemVer):** Controle de lançamentos por versões (`MAJOR.MINOR.PATCH`), como `v0.1.0`, `v0.2.0` e `v1.0.0`.
+
+---
+
+## 💻 Como Rodar o Projeto Localmente
+
+1. Clone este repositório no seu computador:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
